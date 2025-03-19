@@ -14,6 +14,7 @@ function App() {
     setIsRaining(true);
   }
 
+
   function getTitle() {
     // This function manages the H1 text, depending on the weather
     return isRaining ? "Rain time" : "Sun time";

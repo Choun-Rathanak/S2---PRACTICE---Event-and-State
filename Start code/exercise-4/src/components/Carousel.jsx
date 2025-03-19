@@ -17,12 +17,12 @@ const handleLeftClick = () => {
 
 const handleRightClick = () => {
   if (currentIndex === images.length - 1) {
-    setCurrentIndex(0); // Go to the first image if we're at the last one
+    setCurrentIndex(0); 
   } else {
-    setCurrentIndex(currentIndex + 1); // Otherwise, move to the next image
+    setCurrentIndex(currentIndex + 1); 
   }
 };
-  /* You will need to manage the cases when we are on the last image or first image*/
+ 
 
   return (
     <div className="carousel">
